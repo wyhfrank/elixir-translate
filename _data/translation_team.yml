@@ -1,47 +1,27 @@
-- avatar: images/member/translation/Like.jpg
-  name: Li Ke
-  position: Founder
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+summary: 所有负责人均拥有多年口、笔译经验，并持有中华人民共和国翻译专业资格（水平）二级口、笔译证书及全国外语证书考试一级口译证书
 
-- avatar: images/member/translation/Yiyi.jpg
-  name: Kate Holms
-  position: Creative Director
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://dribbble.com
-      icon: dribbble
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+members:
+  - avatar: images/member/translation/Judy.jpg
+    name: Judy
+    position: 国内及海外总负责人
+    desc: 北京外国语大学高级翻译学院毕业，2年军工企业专职翻译、5年自由职业口笔译经验，北外高翻笔译课程助教
 
-- avatar: images/member/translation/Micy.jpg
-  name: Tome Hason
-  position: Designer
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-    - link: http://tumblr.com
-      icon: tumblr
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/member/translation/SunHao.jpg
+    name: 孙浩
+    position: 北京负责人
+    desc: 北京外国语大学高级翻译学院毕业，4年中国国航专职口笔译、3年自由职业口笔译经验，北外高翻口译集训课程讲师
 
-- avatar: images/member/translation/Hao.jpg
-  name: Lily Whrem
-  position: Developer
-  socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
-  desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+  - avatar: images/member/translation/GaoLin.jpg
+    name: 高琳
+    position: 上海负责人
+    desc: 北京外国语大学高级翻译学院毕业，3年保险业专职口笔译、4年自由职业口笔译经验
+
+  - avatar: images/member/translation/HuangYiyi.jpg
+    name: 黄轶怡
+    position: 广州/深圳负责人
+    desc: 北京外国语大学日语系毕业，3年腾讯专职口笔译、5年自由职业口笔译经验
+    
+  - avatar: images/member/translation/LiKe.jpg
+    name: 李可
+    position: 日本负责人
+    desc: 北京外国语大学高级翻译学院毕业，5年高校翻译课程执教经验

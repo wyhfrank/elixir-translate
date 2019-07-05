@@ -1,6 +1,13 @@
-- image: images/@stock/client-1.png
-- image: images/@stock/client-2.png
-- image: images/@stock/client-3.png
-- image: images/@stock/client-4.png
-- image: images/@stock/client-5.png
-- image: images/@stock/client-6.png
+- image: images/partners/bsfu.jpg
+  name: 北京外国语大学
+- image: images/partners/iqiyi.jpg
+  name: 爱奇艺
+- image: images/partners/afilias.jpg
+  name: Afilias
+# - image: images/partners/fao.jpg
+#   name: 联合国粮食及农业组织
+- image: images/partners/quanyou.jpg
+  name: 全友家居
+- image: images/partners/wipo.jpg
+  name: 世界知识产权组织
+
