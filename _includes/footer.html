@@ -1,7 +1,7 @@
 <div id='footer'>
   <div class='three spacing'></div>
   <div class='row'>
-    <div class='large-3 medium-3 columns'>
+    <div class='large-4 medium-4 columns'>
       <h1>
         <a href='index.html'>
           <img alt="" src="{{site.url}}/images/logo-grey.png" />
@@ -11,7 +11,7 @@
       <div class='spacing'></div>
       <div class='spacing'></div>
     </div>
-    <div class='large-3 medium-3 columns'>
+    {% comment %} <div class='large-3 medium-3 columns'>
       <div class='spacing'></div>
       <div class='links'>
         <h4>Some pages</h4>
@@ -36,16 +36,16 @@
         </ul>
       </div>
       <div class='spacing'></div>
-    </div>
-    <div class='large-3 medium-3 columns'>
+    </div> {% endcomment %}
+    <div class='large-4 medium-4 columns'>
       <div class='spacing'></div>
-      <h4>Contact us</h4>
+      <h4>联系我们</h4>
       <ul>
-        <li>Phone: +86 (03) 9810 4612</li>
-        <li>Emial: info@devoll-team.com</li>
-        <li>Location: 41 Dean Street, London, UK</li>
+        <li>电话: {{site.data.company.tel}}</li>
+        <li>微信: {{site.data.company.wechat_id}}</li>
+        <li>地址: {{site.data.company.address}}</li>
       </ul>
-      <div class='spacing'></div>
+      {% comment %} <div class='spacing'></div>
       <ul class='socials'>
         <li>
           <a href='http://facebook.com'>
@@ -67,7 +67,7 @@
             <i class='fa fa-tumblr'></i>
           </a>
         </li>
-      </ul>
+      </ul> {% endcomment %}
       <div class='spacing'></div>
     </div>
   </div>

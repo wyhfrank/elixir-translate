@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Contact
+title: 联系我们
 section_id: contact
 ---
 
-<div class='full parallax' style='background-image: url(images/@stock/contact-header-bg.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(images/bg/2.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Contact Us" tagline="Drop by or send an email to us" color="#fff" class="big" %}
+      {% include section-header.html title="联系我们" tagline="Contact Us" color="#fff" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -20,34 +20,55 @@ section_id: contact
           <div class='row'>
             <form id='contact_form' method='POST'>
               <div class='large-12 columns'>
-                <p id='thanks' style='display: none;'>
-                  Thanks for contacting us, we'll be in touch soon!
-                </p>
+                <h3 id='thanks' style='display: none;'>
+                  感谢来信，我们将尽快与您联系！
+                </h3>
               </div>
               <div class='medium-12 columns'>
-                <input class='required' name='name' placeholder='NAME' type='text'>
-                <input class='required email' name='email' placeholder='EMAIL' type='text'>
-                <input class='required' name='subject' placeholder='SUBJECT' type='text'>
-                <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-                <input class='button white' type='submit'>
+                <input class='required' name='name' placeholder='您的姓名' type='text'>
+                <input class='required email' name='email' placeholder='您的联系邮箱' type='text'>
+                <input class='required' name='subject' placeholder='主题' type='text'>
+                <textarea class='required' name='message' placeholder='咨询内容'></textarea>
+                <input class='button white' type='submit' value='发送'>
               </div>
             </form>
           </div>
         </div>
+      
         <div class='two spacing'></div>
       </div>
-      <div class='medium-4 columns'>
+      <div class='medium-4 columns' style='background: #f5f5f5'>
         <div class='contact-details'>
-          <h4>Our location:</h4>
-          <p>41 Dean Street, London, UK</p>
-          <h4>Our Phone:</h4>
-          <p>+86 (03) 9810 4612</p>
-          <h4>Fax:</h4>
-          <p>+6102 236338 5456</p>
-          <h4>Our Email:</h4>
-          <p>info@devoll-team.com</p>
+          <h4>联系地址:</h4>
+          <p>{{ site.data.company.address }}</p>
+          <h4>电话:</h4>
+          <p>{{ site.data.company.tel }}</p>
+          <h4>联系邮箱:</h4>
+          <p>{{ site.data.company.email }}</p>
+          <h4>微信账号:</h4>
+          <p>{{ site.data.company.wechat_id }}</p>
+          <h4>微信二维码：</h4>
+          <img src="images/wechat/wechat-inquiry.jpg" />            
         </div>
       </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>
+
+<div class='full' style='background: #e8e8e8'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="地图" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12'>
+      <span>※ 点击图片跳转到百度地图</span>
+      <a href="https://map.baidu.com/poi/%E6%98%93%E7%AB%8B%E6%80%9D%E8%8B%B1%E8%AF%AD(%E6%BB%A8%E6%B1%9F%E8%B7%AF%E5%BA%97)/@11540113.58253426,3564551.484397041,18.15z?uid=5f4f9cf142c5e2b771455b4c&primaryUid=6274349143548540308&ugc_type=3&ugc_ver=1&device_ratio=1&compat=1&querytype=detailConInfo&da_src=shareurl">
+        <img src='images/campus/map.png'>
+      </a>
     </div>
   </div>
   <div class='four spacing'></div>
