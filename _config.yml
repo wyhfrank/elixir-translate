@@ -8,6 +8,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
+ga_tracking_id: UA-78608624-5  # Google Analytics Tracking ID
+
 # Build settings
 markdown: kramdown
 
