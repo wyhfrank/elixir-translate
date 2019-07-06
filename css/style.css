@@ -1936,6 +1936,13 @@ form textarea.error {
 }
 
 
+/* Footnote */
+
+.footnote {
+    color: #aaa;
+}
+
+
 /*Footer */
 
 #footer {
