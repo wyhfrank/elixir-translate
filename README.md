@@ -25,6 +25,10 @@ bundle exec jekyll serve
 jekyll serve
 ```
 
+## Deploy on GitHub
+
+- [Use custom domain](https://help.github.com/en/articles/quick-start-setting-up-a-custom-domain)
+
 ## Issues
 
 ### GemNotFoundException
