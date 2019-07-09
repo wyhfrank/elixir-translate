@@ -9,14 +9,17 @@ about:
 
 services:
   - title: 笔译服务
+    url: translation-process.html#translation
     icon: fa fa-file-text
     desc: 服务范围：法律合同、管理咨询、营销材料、手册说明、技术资料、学术论文、证书证件等。
     extra: 专业的翻译流程：理解原文→查证专有名词→阅读目标语平行文本→翻译→译者书写翻译注释→审校→母语人士润色译文→排版→返回客户。
   - title: 口译服务
+    url: translation-process.html#interpretation
     icon: fa fa-comments
     desc: 服务范围：陪同口译、展会口译、交替传译、同声传译、耳语同传。
     extra: 易立思为您的商务接待、谈判、大型会议、展会等商业活动提供多样化的口译服务，覆盖金融、制造、IT、通信、医学、化工能源等多个行业领域。
   - title: 本地化
+    url: translation-process.html#others
     icon: fa fa-globe
     desc: 服务范围：软件本地化、网站本地化、游戏本地化、媒体文档本地化等。
     extra: 易立思为您的产品打入国际市场提供强有力的本地化支持，无论是公司官网、手机应用还是视频字幕制作，易立思的翻译团队都将在专业IT团队的指导下进行本地化，保证本地化产品与原产品无缝连接。
@@ -80,7 +83,7 @@ milestones:
     fa {{ service.icon }}
     {% endcapture %} {% endcomment %}
     <div class="medium-4 large-4 columns">
-      {% include icon-text.html title=service.title desc=service.desc icon_class=service.icon delay='0' shape_class='icon-text-circle' %}
+      {% include icon-text.html title=service.title desc=service.desc icon_class=service.icon delay='0' shape_class='icon-text-circle' url=service.url %}
     </div>
     {% endfor %}
   </div>
@@ -173,36 +176,6 @@ milestones:
   </div>
 </div>
 
-
-<div class='full' style='background: #fff'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="笔译流程" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12'>
-      <img src='images/process/biyi.png'>
-    </div>
-  </div>
-  {% comment %} <div class=' spacing'></div> {% endcomment %}
-</div>
-
-<div class='full' style='background: #fff'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="口译流程" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12'>
-      <img src='images/process/kouyi.png'>
-    </div>
-  </div>
-  <div class='three spacing'></div>
-</div>
 
 {% include our-customers.html %}
 
