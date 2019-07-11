@@ -1,9 +1,9 @@
 - name: 首页
   path: index.html
   section_id: home
-# - name: 翻译服务
-#   path: translation.html
-#   section_id: translation
+- name: 翻译流程
+  path: translation-process.html
+  section_id: translation_process
 - name: 联系我们
   path: contact.html
   section_id: contact
