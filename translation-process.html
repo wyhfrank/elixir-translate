@@ -22,7 +22,7 @@ services:
 </div>
 
 {% for service in page.services %}
-  <div class='full' id='{{ service.id }}' style='background: #fff'>
+  <div class='full' id='{{ service.id }}' style='background: {% cycle "#fff", "#f5f5f5" %}'>
     <div class='row'>
       <div class='large-12 columns'>
         {% include section-header.html title=service.name %}
@@ -34,13 +34,13 @@ services:
         <img src='{{ service.img }}'>
       </div>
     </div>
-    {% comment %} <div class=' spacing'></div> {% endcomment %}
+    <div class='two spacing'></div>
   </div>
 {% endfor %}
 
-<div class='three spacing'></div>
+{% comment %} <div class='three spacing'></div> {% endcomment %}
 
-<div class='full no-padding' id='others' style='background: #f5f5f5'>
+<div class='full no-padding' id='others' style='background: #fff'>
   <div class='two spacing'></div>
       <div class='row'>
       <div class='large-12 columns'>
