@@ -124,18 +124,11 @@ milestones:
       <div class='spacing'></div>
     </div>
   </div>
-  <div class='row small-6 medium-12'>
+  <div class='row small-12 medium-12 display-flex'>
     {% for member in site.data.translation_team.members %}
-      {% if forloop.first%}
-        {% assign special_tag = 'medium-offset-1' %}
-      {% elsif forloop.last %}
-        {% assign special_tag = 'end' %}
-      {% else %}
-        {% assign special_tag = '' %}
-      {% endif %}
-      
+
       {% comment %} https://stackoverflow.com/a/24954761/1938012 {% endcomment %}
-      <div class='small-12 medium-2 {{special_tag}} columns'>
+      <div class='small-4 medium-2 columns'>
         <div class='mod modTeamMember'>
           <div class='member'>
             <img class="avatar" alt="" src="{{ member.avatar }}" />
@@ -163,7 +156,7 @@ milestones:
             {% endfor %}
           </ul> {% endcomment %}
           <p >{{member.desc}}</p>
-          <div class='spacing'></div>
+          <div class='two spacing'></div>
         </div>
       </div>
     {% endfor %}

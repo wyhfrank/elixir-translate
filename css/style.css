@@ -4620,6 +4620,12 @@ body {
     margin-top: -18px;
 }
 
+/* https://stackoverflow.com/a/22311212/1938012 */
+.row.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 /* Slider */
 
